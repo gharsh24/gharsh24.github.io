@@ -1,0 +1,23 @@
+.first{
+    background-color: grey;
+}
+
+section{
+    padding: 7.5%;
+    /* margin: 7.5%.; */
+}
+.logo-img{
+    width: 50x;
+    height: 50px;
+}
+
+/* Footer */
+
+.footer{
+    background-color: #7f848d;
+    padding: 6.5%;
+    text-align: center;
+}
+.icon{
+    margin: 2%;
+}
