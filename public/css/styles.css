@@ -1,40 +1,45 @@
 /* Navbar */
 
-.navbar-img{
+.navbar-img {
     width: 75px;
 }
 
 
 
-.navbar{
+.navbar {
     padding: 1 0 1rem;
     background-color: black;
 }
-.navbar-brand{
+
+.navbar-brand {
     font-size: 2.5rem;
     font-weight: bold;
     padding-left: 3rem;
 }
-.nav-item{
+
+.nav-item {
     padding: 0 18px;
 }
-nav-link{
-    font-size:1.2rem;
+
+nav-link {
+    font-size: 1.2rem;
 
 }
-.logo-img{
+
+.logo-img {
     width: 50x;
     height: 50px;
 }
 
 
 /* Title */
-.container{
+.container {
     text-align: center;
     padding: 5% 4% 7%;
 
 }
-.title{
+
+.title {
     background-image: url('title.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -42,68 +47,76 @@ nav-link{
     padding: -1.5% 0 3% 0;
 }
 
-.btn{
+.btn {
 
     margin: 8% 3.5% 0 3.5%;
 }
 
 
-.section-content{
+.section-content {
     padding: 5% 0;
 }
 
-.title-img{
+.title-img {
     width: 100%;
-    
-    
+
+
 }
 
 /* Endangered species */
 
-.endangered{
+.endangered {
     background-color: #FCFDF2;
     /* color: white; */
 }
-.graph{
+
+.graph {
     padding: 5% 1%;
     padding-right: 10%;
     width: 100%;
 }
 
 
-.heading{
+.heading {
     text-align: center;
     font-family: 'Roboto', sans-serif;
 }
 
-h1{
+h1 {
     /* font-family: 'Roboto', sans-serif; */
     font-size: 80px;
 }
-h2{
+
+h2 {
     /* font-family: 'Montserrat', sans-serif; */
     font-size: 40px;
 }
-p{
+
+p {
     font-size: 20px;
 }
+
 /* news */
-.news{
+.news {
     background-color: #7f848d;
     color: #fff;
     padding: 5% 2%;
     padding-bottom: 12%;
-    
-    
+
+
 }
+
 /* Footer */
 
-.footer{
+.footer {
     background-color: black;
     color: #fff;
     padding: 6.5%;
     text-align: center;
 }
-.icon{
+
+.icon {
     margin: 2%;
 }
+
+
