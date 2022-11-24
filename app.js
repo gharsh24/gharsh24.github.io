@@ -14,6 +14,16 @@ app.get('/',function(req,res){
     res.render('home');
 })
 
+app.get('/adopt',function(req,res){
+    res.render('adopt');
+})
+
+app.post('/',function(){
+    const fname=req.body.fname;
+    const lname=req.body.lname;
+    const email=req.body.email;
+})
+
 app.listen(3000,function(req,res){
     console.log("Server started at port 3000");
 });
