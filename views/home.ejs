@@ -1,0 +1,115 @@
+<%-include('partials/header.ejs')-%>
+
+  <section class="title">
+    <div class="container">
+      <h1>Let them know someone cares</h1><br>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea dolores earum maxime et temporibus nisi quam animi
+        quidem, laboriosam, qui sed delectus veniam esse similique numquam cumque? Ratione harum ipsa reiciendis quia.
+        Doloremque vitae saepe dignissimos, consectetur necessitatibus eos ipsam. Perspiciatis animi, numquam qui velit
+        inventore ratione facilis reprehenderit, itaque consequuntur, sint beatae aut. Sunt nulla aperiam voluptatem
+        harum</p>
+
+      <button type="button" class="btn btn-lg btn btn-dark "><a href="#join" style="text-decoration: none; color: white">Join now</a></button>
+      <button type="button" class="btn btn-lg btn-light"> <a href="/terms" style="text-decoration: none; color: grey">Learn more</a> </button>
+    </div>
+  </section>
+
+
+  <section class="endangered">
+    <div class="container ">
+      <h1 style="color: #EF9A53;">Endangered species</h1>
+      <div class="row">
+        <div class="col-6">
+          <img class="graph" src="images/end_survey.jpeg" alt="">
+        </div>
+        <div class="col-6 section-content">
+          <h3>We need to protect them</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos tempora atque aliquam a culpa qui delectus at
+            iste officia rem fugit sit enim nam est cum laudantium, accusantium eius veniam reprehenderit eveniet odio
+            nobis. Praesentium dignissimos optio odio blanditiis atque similique, sapiente ullam quam fugiat culpa
+            aspernatur eligendi! Consequuntur, deserunt!
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- news -->
+
+  <section class="news">
+
+    <h2 class="heading">News</h2>
+    <section id="testimonials">
+      <div id="Testimonials-carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner" style="padding:20px 150px;">
+          <div class="carousel-item ">
+            <div class="row">
+              <div class="col-6">
+                <img src="images/test1.jpg" alt="" style="width: 500px; height: 400px;">
+              </div>
+              <div class="col-6">
+            <h2 style="color: black;">This weird-looking primate’s extra-long fingers give it an extra-gross talent</h2>
+            <h3 class="testimonial-text">
+              “It was impossible not to notice this aye-aye picking its nose,” Fabre, the study’s lead author, said in a statement.
+              “This was not just a one-off behaviour but something that it was fully engaged in, inserting its extremely long finger a surprisingly long way down its nose and then sampling whatever it dug up by licking its finger clean!”
+              Including aye-ayes and humans, 
+            </h3></div>
+          
+          </div>
+          </div>
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-6"><img src="images/test2.jpg" alt="" style="width: 500px; height: 400px;"></div>
+              <div class="col-6">
+                <h2 style="color: black;">The future of machines? Move like animals</h2>
+            <h3 class="testimonial-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae autem
+              tenetur deleniti rerum impedit nostrum adipisci nihil tempore neque amet inventore enim sunt illo suscipit
+              quo similique hic, repellendus maxime asperiores, dolores consequuntur expedita animi commodi. Beatae
+              labore rerum velit.</h3></div>
+
+            <em>Beverly, Illinois</em>
+          </div>
+        </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#Testimonials-carousel"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#Testimonials-carousel"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+
+  </section>
+
+  <section class="community" id="join">
+    <div class="container" style="text-align: left;">
+
+      <div class="row">
+        <div class="col-6">
+          <h1 class="comm-heading">Join our community</h1>
+        </div>
+        <div class="col-6">
+          <form action="/" method="post">
+            <!-- <div class="mb-3"></div> -->
+            <label class="form-label">First Name</label>
+            <input type="text" name="fname" class="form-control">
+            <label class="form-label">Last Name</label>
+            <input type="text" class="form-control" name="lname">
+            <label class="form-label">Email address</label>
+            <input type="email" name='email' class="form-control" aria-describedby="emailHelp" >
+
+            <!-- <div class="mb-3"></div> -->
+            <button type="submit" class="btn btn-primary">Join</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <%-include('partials/footer.ejs')-%>
